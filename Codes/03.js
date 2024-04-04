@@ -36,5 +36,7 @@ const myFunc = function () {
 
 //typeof func used to find data type of variables.
 
-
+// types of memory
+//stack and heap
+// stack is used in primitive data types and heaps for non primitive data types
 
