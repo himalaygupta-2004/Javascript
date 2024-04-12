@@ -11,3 +11,6 @@
 // .flooor() - floor value
 // .min()/ .max() -
 // .random() - generates random value ... prints between 0 to 1 mostly
+
+//date and time 
+
