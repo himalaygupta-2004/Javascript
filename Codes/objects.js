@@ -1,6 +1,6 @@
 // // //objects in javascript
-// // //singleton 
-// // // object literals 
+// // //singleton
+// // // object literals
 // // //object.create -- object creation method
 // const jsUser = {
 //     name: "Himalay",
@@ -13,11 +13,11 @@
 
 // // console.log(jsUser.lastLogin);
 // // //other method
-// // console.log(jsUser["isloggedIN"]); 
+// // console.log(jsUser["isloggedIN"]);
 // // //in objects keys are automatically considered as strings
 // // //symbols
 
-// // const mySym = Symbol("key1") 
+// // const mySym = Symbol("key1")
 // // const jsUser1 = {
 // //     name: "Himalay",
 // //     age: 25,
@@ -36,13 +36,12 @@
 // // jsUser.greetings = function(){
 // //     console.log("hello");
 // // }
-// //  console.log(jsUser.greetings()); // error not a function 
+// //  console.log(jsUser.greetings()); // error not a function
 
 // //  jsUser.greetingstwo = function(){
 // //     console.log(`hello js user, ${this.name}`);
 // //  }
 // //  console.log(jsUser.greetingstwo());
-
 
 // // const user = new Object() -- singleton obj
 // const user = {} //-- non singleton
@@ -63,10 +62,18 @@
 // // objects.assign(target,source)
 // // best method using spread method
 
-// // jab database se values ayenge phir 
+// // jab database se values ayenge phir
 // console.log(jsUser);
 // console.log(Object.keys(jsUser)); //via looping
 // console.log(Object.values(jsUser));
 // console.log(Object.entries(jsUser));
 // console.log(jsUser.hasOwnProperty('age'));
 
+//object de-structuring
+// const courses = {
+//   coursename: "hndi",
+//   price: "999",
+// };
+
+// const { coursename } = courses;
+// console.log(coursename);
